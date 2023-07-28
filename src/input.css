@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-heading {
+  @apply text-4xl font-bold text-blue-500 my-5;
+}
+
+.sub-heading {
+  @apply text-3xl;
+}
+
+p {
+  @apply my-5;
+}
+
+.btn-primary {
+  @apply px-10 bg-blue-500 py-2.5 text-white rounded-md hover:bg-blue-600;
+}
+
+.btn-round-primary {
+  @apply px-10 bg-blue-500 py-2.5 text-white rounded-full hover:bg-blue-600;
+}
